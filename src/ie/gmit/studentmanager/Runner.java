@@ -8,7 +8,7 @@ public class Runner {
 		//creates new menu object
 		Menu menuObj1 = new Menu();
 		
-		//calls the new menu object
+		//calls the new menu objects
 		menuObj1.start();
 		
 	}
