@@ -11,17 +11,29 @@ public class Student {
 	private Date dob;
 	private Address address;
 	private Course course;
+	private int studentId;
 	
 	
 	//Constructor 
-	public Student(String firstName, String lastName, int age, Date dob, Address address, Course course) {
+	public Student(String firstName, String lastName, int age, Date dob, Address address, Course course, int studentId) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.studentId = studentId;
 		this.age = age;
 		this.dob = dob;
 		this.address = address;
 		this.course = course;
 		
+	}
+
+
+	public int getStudentId() {
+		return studentId;
+	}
+
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
 	}
 
 
